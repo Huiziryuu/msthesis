@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="components/vis/dist/vis.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <link href="components/vis/dist/vis.css" rel="stylesheet" />
+    <link href="stylesheets/main.css" rel="stylesheet" />
+    <title>msthesis</title>
+</head>
+<body onload="draw()">
+<div id="main">
+    <div id="network-popUp">
+        <span id="operation">node</span> <br>
+        <table style="margin:auto;">
+            <tr>
+                <th>node color</th><td><input id="node-color" type="color" /></td>
+            </tr>
+            <tr>
+                <th>node size</th><td><input id="node-size" placeholder="node size" /></td>
+            </tr>
+            <tr>
+                <th>font size</th><td><input id="font-size" placeholder="font size" /></td>
+            </tr>
+        </table>
+        <input type="button" value="save" id="saveButton" />
+        <input type="button" value="cancel" id="cancelButton" />
+
+    </div>
+    <div id="mynetwork"></div>
+</div>
+</body>
+</html>

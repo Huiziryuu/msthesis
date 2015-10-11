@@ -1,0 +1,9 @@
+{
+  "arrNodes": [
+    {"id": "1", "label": "Req 00", "group": "group1"},
+    {"id": "2", "label": "Req 01", "group": "group2"}
+  ],
+  "arrEdges": [
+    {"from": "1", "to": "2"}
+  ]
+}
